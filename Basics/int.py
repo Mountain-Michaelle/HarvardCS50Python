@@ -30,11 +30,14 @@ y1 = float(input("Y value? "))
 
 # PYTHON ROUNDING;
 # round(number[, ndigits])
-z = round(x1 + y1)
+z = round(x1 / y1, 2) # Only the round alone will return on digits here
 print("Result summation is ", end='')
 
 # Using FString too to format a number..
+# Fstring approach to runding numbers
 print(f"{z:,}")
+
+print(f"F-string approach {z:.2f}", )
 
 # I can also use; 
 # x = int(input("What's x " ))
