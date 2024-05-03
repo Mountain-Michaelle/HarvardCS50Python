@@ -34,6 +34,7 @@ z = round(x1 / y1, 2) # Only the round alone will return on digits here
 print("Result summation is ", end='')
 
 # Using FString too to format a number..
+
 # Fstring approach to runding numbers
 print(f"{z:,}")
 

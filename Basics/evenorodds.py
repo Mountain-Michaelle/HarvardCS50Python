@@ -30,9 +30,18 @@ def main():
         
             
 def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
-            
+    # if n % 2 == 0:
+    #     return True
+    # else:
+    #     return False
+    
+    # Improving the code
+    
+    # return True if n % 2 == 0 else False
+
+    # if the value of expression returns true or false originally, no need of reurning true or false
+    
+    # return n % 2 == 0
+    # better 
+    return (n % 2 == 0) # Because whatever in the paranthesis evaluates first
 main()
